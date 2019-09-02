@@ -27,9 +27,11 @@ __Steps:__
 *Note: Available texture matrices ranges from t1 - t11.*
 
 *- Edit the 2nd argument for function my_Texture_Synthesiser for desired window size; line 15*
+
 *Note: Window size must always be odd!*
 
 *- Edit the last argument for function my_Texture_Synthesiser for desired n-th fold size; line 15*
+
 *Note: Outputs texture of size [n*r,n*c] from original sample of size [r,c].*
   
 **Details:**
