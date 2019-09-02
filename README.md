@@ -44,6 +44,7 @@ produces good results for a wide variety of synthetic and
 real-world textures.
 
 **Observation:**
+
 With respect to synthesis quality and accuracy, a relatively smaller window size will output poor texture synthesis as compared to a larger window. This is because the large window will be able to explore more pixels in the neighbourhood which might provide information regarding the patterns evident in the pixel intensity. Such success can be observed in textures like texture 4, where the increased window size shows significant improvement over the small one.
 However, the drawback of using a larger window is the longer processing time. By including more details for comparison, computational time will be longer. If image resolution is not of concern, by resizing the sample texture to a smaller size will decrease processing time as well as synthesise a good representation of the sample texture.
 
