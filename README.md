@@ -1,6 +1,6 @@
 # Computer-Vision Projects
 
-## Visualisation of 8-point algorithm to determine epipolar lines in stereo pair camera images.
+### Visualisation of 8-point algorithm to determine epipolar lines in stereo pair camera images.
 
 __Steps:__
 
@@ -8,7 +8,7 @@ __Steps:__
 
 2.) Select at least 8 corresponding points in both pair of images
 
-** Details:**
+**Details:**
 
 The eight-point algorithm is an algorithm used in computer vision to estimate the essential matrix or the fundamental matrix related to a stereo camera pair from a set of corresponding image points.
 
