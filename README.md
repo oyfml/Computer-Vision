@@ -2,9 +2,9 @@
 
 ### (1.) Visualisation of 8-point algorithm to determine epipolar lines in stereo pair camera images
 
-Steps  | Details
-------------- | -------------
-1.) Run main.m script  |  The eight-point algorithm is an algorithm used in computer vision to estimate the essential matrix or the fundamental matrix related to a stereo camera pair from a set of corresponding image points.
+Steps  
+------------- 
+1.) Run main.m script  
     
 | __Steps:__
 | **
