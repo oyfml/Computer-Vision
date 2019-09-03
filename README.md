@@ -2,13 +2,11 @@
 
 ### (1.) Visualisation of 8-point algorithm to determine epipolar lines in stereo pair camera images
 
-###### Steps  
+#### __Steps__  
 ------------- 
 1.) Run main.m script  
-    
-| __Steps:__
-| **
-| *2.) Select at least 8 corresponding points in both pair of images*
+
+*2.) Select at least 8 corresponding points in both pair of images*
 
 **Details:**
 
