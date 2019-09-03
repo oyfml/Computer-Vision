@@ -4,7 +4,7 @@
 
 __Steps__  
 
-*1.) Run main.m script*  
+> *1.) Run main.m script*  
 
 *2.) Select at least 8 corresponding points in both pair of images*
 
