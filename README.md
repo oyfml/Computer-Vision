@@ -1,6 +1,6 @@
 # Computer-Vision Projects:
 
-## (1.) Visualisation of 8-point algorithm to determine epipolar lines in stereo pair camera images
+### (1.) Visualisation of 8-point algorithm to determine epipolar lines in stereo pair camera images
 
 __Steps__  
 
