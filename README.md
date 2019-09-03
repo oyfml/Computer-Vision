@@ -5,8 +5,8 @@
 __Steps__  
 
 ```
-*1.) Run main.m script*  
-*2.) Select at least 8 corresponding points in both pair of images*
+1.) Run main.m script 
+2.) Select at least 8 corresponding points in both pair of images
 ```
 
 **Details:**
@@ -20,13 +20,16 @@ __Steps__
 
 __Steps:__
 ```
-*1.) Run main.m script*
- *- Edit the input to im2double(__); line 13, to specify desired texture file for synthesis*
-*Note: Available texture matrices ranges from t1 - t11.*
-*- Edit the 2nd argument for function my_Texture_Synthesiser for desired window size; line 15*
-*Note: Window size must always be odd!*
-*- Edit the last argument for function my_Texture_Synthesiser for desired n-th fold size; line 15*
-*Note: Outputs texture of size [n*r,n*c] from original sample of size [r,c].*
+1.) Run main.m script
+
+- Edit the input to im2double(__); line 13, to specify desired texture file for synthesis
+Note: Available texture matrices ranges from t1 - t11.
+
+- Edit the 2nd argument for function my_Texture_Synthesiser for desired window size; line 15
+Note: Window size must always be odd!
+
+- Edit the last argument for function my_Texture_Synthesiser for desired n-th fold size; line 15
+Note: Outputs texture of size [n*r,n*c] from original sample of size [r,c].
  ```
  
 **Details:**
@@ -51,10 +54,11 @@ However, the drawback of using a larger window is the longer processing time. By
 
 __Steps:__
 ```
-*1.) Run main.m script*
-*- Choose size of patch length, p_len*
-*- Patch area = p_len x p_len*
-*- p_len must be >=1 and odd*
+1.) Run main.m script
+
+- Choose size of patch length, p_len
+- Patch area = p_len x p_len
+- p_len must be >=1 and odd
 ```
 **Details:**
 
