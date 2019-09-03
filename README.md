@@ -13,8 +13,8 @@ __Steps__
 
 > The fundamental matrix completely describes the epipolar geometry of the pair of images, as it represents the relationship between any two images of the same scene that constrains where the projection of points from the scene can occur in both images. Since information loss occurs when a camera image is taken (3D projection to 2D plane), we cannot retrieve any depth information with one camera image. But with a stereo pair of camera images and the fundamental matrix, we can retrieve the depth of objects (points) in the scene.
 
-<br />
 -------------------------------
+<br />
 <br />
 
 ### (2.) Texture Synthesiser by non-parametric sampling (Efros & Leung Algorithm)
