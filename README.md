@@ -5,11 +5,8 @@
 __Steps__  
 
 ```
-
 *1.) Run main.m script*  
-
 *2.) Select at least 8 corresponding points in both pair of images*
-
 ```
 
 **Details:**
@@ -22,20 +19,16 @@ __Steps__
 ### (2.) Texture Synthesiser by non-parametric sampling (Efros & Leung Algorithm)
 
 __Steps:__
-
+```
 *1.) Run main.m script*
-
-> *- Edit the input to im2double(__); line 13, to specify desired texture file for synthesis*
+ *- Edit the input to im2double(__); line 13, to specify desired texture file for synthesis*
 *Note: Available texture matrices ranges from t1 - t11.*
-
-> *- Edit the 2nd argument for function my_Texture_Synthesiser for desired window size; line 15*
-
-> *Note: Window size must always be odd!*
-
-> *- Edit the last argument for function my_Texture_Synthesiser for desired n-th fold size; line 15*
-
-> *Note: Outputs texture of size [n*r,n*c] from original sample of size [r,c].*
-  
+*- Edit the 2nd argument for function my_Texture_Synthesiser for desired window size; line 15*
+*Note: Window size must always be odd!*
+*- Edit the last argument for function my_Texture_Synthesiser for desired n-th fold size; line 15*
+*Note: Outputs texture of size [n*r,n*c] from original sample of size [r,c].*
+ ```
+ 
 **Details:**
 
 > "Hole-filling" or synthesising texture patterns from given input images to generate photo-realistic output images. 
@@ -57,15 +50,12 @@ However, the drawback of using a larger window is the longer processing time. By
 ### (3.) PatchMatch: A Randomized Correspondence Algorithm for Structural Image Editing
 
 __Steps:__
-
+```
 *1.) Run main.m script*
-
 *- Choose size of patch length, p_len*
-
 *- Patch area = p_len x p_len*
-
 *- p_len must be >=1 and odd*
-
+```
 **Details:**
 
 > PatchMatch finds the patch correspondence by defining a nearest-neighbor field (NNF) as a function of offsets, which is over all possible matches of patch (location of patch centers) in image A, for some distance function of two patches D. So, for a given patch coordinate a in image A and its corresponding nearest neighbor b in image B, f(a) is simply b-a. However, if we search for every point in image B, the work will be too hard to complete. So the algorithm follows a randomized approach in order to accelerate the calculation speed. 
