@@ -4,7 +4,7 @@
 
 __Steps__  
 
-> *1.) Run main.m script*  
+*1.) Run main.m script*  
 
 *2.) Select at least 8 corresponding points in both pair of images*
 
@@ -21,16 +21,16 @@ __Steps:__
 
 *1.) Run main.m script*
 
-*- Edit the input to im2double(__); line 13, to specify desired texture file for synthesis*
+> *- Edit the input to im2double(__); line 13, to specify desired texture file for synthesis*
 *Note: Available texture matrices ranges from t1 - t11.*
 
-*- Edit the 2nd argument for function my_Texture_Synthesiser for desired window size; line 15*
+> *- Edit the 2nd argument for function my_Texture_Synthesiser for desired window size; line 15*
 
-*Note: Window size must always be odd!*
+> *Note: Window size must always be odd!*
 
-*- Edit the last argument for function my_Texture_Synthesiser for desired n-th fold size; line 15*
+> *- Edit the last argument for function my_Texture_Synthesiser for desired n-th fold size; line 15*
 
-*Note: Outputs texture of size [n*r,n*c] from original sample of size [r,c].*
+> *Note: Outputs texture of size [n*r,n*c] from original sample of size [r,c].*
   
 **Details:**
 
