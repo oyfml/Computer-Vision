@@ -2,7 +2,7 @@
 
 S/No.  | Description
 ------------- | -------------
-1.  |  Visualisation of 8-point algorithm to determine epipolar lines in stereo pair camera images
+1  |  Visualisation of 8-point algorithm to determine epipolar lines in stereo pair camera images
     
 | __Steps:__
 | *1.) Run main.m script*
