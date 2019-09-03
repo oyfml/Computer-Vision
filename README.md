@@ -17,7 +17,7 @@ __Steps__
 <br />
 <br />
 
-### (2.) Texture Synthesiser by non-parametric sampling (Efros & Leung Algorithm)
+### 2.) Texture Synthesiser by non-parametric sampling (Efros & Leung Algorithm)
 
 __Steps:__
 ```
@@ -47,11 +47,11 @@ real-world textures.
 
 > With respect to synthesis quality and accuracy, a relatively smaller window size will output poor texture synthesis as compared to a larger window. This is because the large window will be able to explore more pixels in the neighbourhood which might provide information regarding the patterns evident in the pixel intensity. Such success can be observed in textures like texture 4, where the increased window size shows significant improvement over the small one.
 However, the drawback of using a larger window is the longer processing time. By including more details for comparison, computational time will be longer. If image resolution is not of concern, by resizing the sample texture to a smaller size will decrease processing time as well as synthesise a good representation of the sample texture.
-
+-------------------------------
 <br />
 <br />
 
-### (3.) PatchMatch: A Randomized Correspondence Algorithm for Structural Image Editing
+### 3.) PatchMatch: A Randomized Correspondence Algorithm for Structural Image Editing
 
 __Steps:__
 ```
@@ -71,6 +71,6 @@ __Steps:__
 
 > In patch match algorithm, the size of patch does not drastically affect computational time, since all possible permutations of patches in A are computed by shifting the patch pixel by pixel. The drawbacks of using large patch size is when reconstruction occurs, the large patch is also extracted from the reference image B, which would show huge
 dissimilarities between the input and reconstructed image (as seen in using patch length 9 above), since it is uncommon for large patches of A & B to be similar looking.
-
+-------------------------------
 
 
